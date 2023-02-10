@@ -1,0 +1,45 @@
+#header_content{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.first_h{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   padding: 1px;
+    margin-top: 0;
+}
+.second_h{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.nav_f{
+    margin-right: 2em;
+    margin-top: 1em;
+}
+.nav_s{
+    margin-left: 2em;
+}
+.icons{
+    margin-left: -2.5em;
+}
+.logo_link{
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+.list, .link{
+    display: inline;
+    margin: 12px;
+    color: rgb(29, 29, 29);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}

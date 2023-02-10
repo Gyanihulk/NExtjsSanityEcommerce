@@ -1,0 +1,129 @@
+
+ /* MEDIA QUERY FOT RESPONSIVE WEB PAGE */
+ @media (max-width: 1050px) {
+    .nav_f, .nav_s, .icons {
+       
+        display: none;
+    }
+    .second_h{
+        display: inline;
+        
+    }
+   .logo_area{
+    padding-left: 10%;
+   }
+   .drawer_icon{
+    display: inline;
+    float: right;
+    margin-top: -3em;
+    padding-right: 5%;
+   }
+   .one_bp{
+    width: 26em;
+   }
+   .img_links{
+    margin-left: 7%;
+ }
+    
+ }
+ @media (max-width: 900px) {
+    .pro{
+        width: 28%;
+        height: 12em;   
+    }
+    .content, #flex{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        
+    }
+    .one_bp{
+        width: 22em;
+       }
+       .pro_img{
+        width: 13em;
+       }
+       .pro10{
+        width: 26em;
+     }
+     .sec_box{
+        width: 45%;
+          text-align: center;
+         margin-right: 10em; 
+       }
+       #feat{
+        flex-direction: column; 
+        padding: 20px;    
+    }
+    .overall{
+        margin: 0.1em;
+        margin-left: 10%;
+    }
+
+     .s_foot {
+        flex-direction: column;
+        align-items: flex-start;
+     }
+ }
+ @media (max-width: 700px) {
+    #big_post {
+        flex-direction: column;
+       align-items: center;
+    } 
+    .one_bp{
+        width: 30em;
+    }
+    .box{
+        margin-bottom: 13%;
+    }
+    .first_box {
+        width: 90%;
+        margin-left: 5px;
+    }
+    .pro10{
+        width: 100%;
+    }
+    #sec_main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec_box{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px auto;
+    }
+    .blog_post_box{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .blog{
+        width: 73%;
+   
+    }
+     #grid_f{
+        flex-direction: column;
+        align-items: center;
+     }
+     .pro{
+        width: 95%;
+        margin: 10px;
+        height: 17em;
+     }
+     .copy{
+        width: 40%;
+     }
+     .pay{
+        margin-right: 2%;
+     }
+    }
+ @media (max-width: 500px) {
+    .blog{
+        width: 90%;
+      text-align: center;
+    }
+    .other_links{
+        margin: 0.3em;
+    }
+ }

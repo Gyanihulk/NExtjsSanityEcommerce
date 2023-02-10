@@ -1,0 +1,119 @@
+#display_pro {
+  margin-top: 15%;
+  width: 100%;
+}
+.sale {
+  animation-name: zoom;
+  animation-duration: 3s;
+}
+.new_arr {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 5%;
+  text-align: center;
+  color: rgb(49, 49, 49);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.cancelled {
+  color: grey;
+  text-decoration: line-through;
+}
+.new {
+  color: rgb(233, 210, 79);
+}
+.canc {
+  color: rgb(231, 231, 231);
+  font-size: 15px;
+  text-decoration: line-through;
+}
+.main_display {
+  width: 100%;
+}
+.img {
+  width: 15em;
+  margin: 10px;
+  height: 19em;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.caption_ {
+  text-align: center;
+  font-weight: 500;
+}
+#img1 {
+  background-image: url(https://reginadanielsfashion.com/wp-content/uploads/2022/01/2d72b502-193c-493c-a660-432e7307a249-scaled.jpeg);
+}
+#img2 {
+  background-image: url(https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+#img3 {
+  background-image: url(https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+#img4 {
+  background-image: url(https://reginadanielsfashion.com/wp-content/uploads/2021/07/2F4A2964-scaled-500x633.jpg);
+}
+#img5 {
+  background-image: url(https://images.unsplash.com/photo-1568252542512-9fe8fe9c87bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx2aXN1YWwtc2VhcmNofDF8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+.like_btn {
+  width: fit-content;
+  background-color: white;
+  padding: 8px;
+  float: right;
+  border-radius: 50%;
+  margin: 1em;
+}
+.sale_tag {
+  float: left;
+  border: 2px solid rgb(233, 210, 79);
+  color: rgb(233, 210, 79);
+  padding: 5px;
+  margin: 0.5em;
+  font-size: small;
+}
+#img6 {
+  background-image: url(https://reginadanielsfashion.com/wp-content/uploads/2021/07/gallery-8-500x600.jpg);
+  width: 20em;
+  height: 25em;
+}
+.pro10 {
+  width: 32em;
+}
+.first_box {
+  margin-left: 12em;
+  width: 60%;
+}
+.sec_box {
+  width: 30%;
+  text-align: center;
+  margin-right: 12em;
+}
+
+#sec_main {
+  margin-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.gray {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(155, 155, 155);
+}
+.head {
+  font-size: 28px;
+  font-weight: 500;
+}
+.sale_tag2 {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 20%;
+  float: left;
+}
